@@ -128,8 +128,19 @@ p{
     font-size: 14px;
 }
 
+.wave{
+    height: 80px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
+    background-size: cover;
+}
+
+.wave.girato{
+    transform: rotate(180deg);
+}
+
 .info_gray{
-    background-color: lightgray;
+    background-color: #f7f5f5;
     padding: 50px;
 }
 
@@ -275,6 +286,8 @@ h4{
 }
 
 /* FINE STILI LISTA */
+
+/* INIZIO STILI BOTTONI FOOTER */
 
 .container_navigation_bar_footer{
     background-color: rgba(39, 36, 36, 0.966);
