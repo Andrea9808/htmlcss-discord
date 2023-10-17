@@ -140,17 +140,12 @@ p{
 }
 
 .info_gray{
-    background-color: lightgray;
+    background-color: rgb(246, 246, 246);
     padding: 50px;
 }
 
 
-.container_info_white {
-    width: 80%;
-    margin: auto;
-}
-
-.container_info_gray {
+.container_info_gray.container_info_white {
     width: 80%;
     margin: auto;
 }
