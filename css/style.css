@@ -103,18 +103,33 @@ h1{
 /* stili main */
 
 .info_white{
-    background-color: white;
     padding: 50px;
 }
 
-.item{
+/* immagini */
+
+.item_white{
     width: 450px;
 }
 
+.item_gray{
+    width: 450px;
+    margin: 50px 250px;
+}
+
+h2{font-size: 31px;
+    padding-top: 70px;
+}
+
+p{
+    padding-top: 20px;
+}
+
 .info_gray{
-    background-color: gray;
+    background-color: lightgray;
     padding: 50px;
 }
+
 
 .container_info_white {
     width: 80%;
@@ -134,9 +149,11 @@ h1{
 }
 
 .info_text{
-    width: 40%;
+    width: 20%;
     height: 400px;
     background-color: pink;
+    font-size: 14px;
+    flex-wrap: wrap;
 }
 
 .info_videocall{
