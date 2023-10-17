@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+}
+
+/* stili header (navigation bar) */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
+}
+
+.login{
+    border: transparent;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: black;
+    background-color: white;
+}
+
+.container_navigation_bar{
+    min-height: 70px;
+}
+
+nav{
+    padding-top: 10px;
+}
+
+ul li{
+    color: black;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+a:link { text-decoration: none; 
+        color: white;}
+
+.flex {
+    display: flex;
+}
+
+.navigation_bar.flex{
+    display: flex;
+    min-height: 50px;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+/* stili header (intro) */
+
+
+h1{
+    color: white;
+    padding: 50px;
+}
+
+.paragrafo_intro{
+    color: white;
+    font-weight: bolder;
+}
+
+.container_paragrafo{
+    min-height: 300px;
+    padding: 30px;
+    text-align: center;
+}
+
+.download{   border: transparent;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: black;
+    background-color: white;
+    margin-right: 15px;
+}
+
+.open{   border: transparent;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: white;
+    background-color: black;
+}
+
+#button_download_open{
+    padding: 50px;
+}
+
+.fas{
+    margin: 0 10px;
+}
+
+.intro{
+    width: 50%;
+    height: 330px;
+    margin: auto;
+}
+
+
+/* stili main */
+
+.info_white{
+    background-color: white;
+    padding: 50px;
+}
+
+.item{
+    width: 450px;
+}
+
+.info_gray{
+    background-color: gray;
+    padding: 50px;
+}
+
+.container_info_white {
+    width: 80%;
+    margin: auto;
+}
+
+.container_info_gray {
+    width: 80%;
+    margin: auto;
+}
+
+
+.info_image{
+    width: 60%;
+    height: 400px;
+    background-color: rgb(10, 199, 199);
+}
+
+.info_text{
+    width: 40%;
+    height: 400px;
+    background-color: pink;
+}
+
+.info_videocall{
+    background-color: gray;
+    padding: 50px;
+}
+
+.container_videocall{
+    width: 40%;
+    height: 700px;
+    background-color: green;
+    margin: auto;
+}
+
+
+/* stili footer (lista social, prodotto, compagnia, risorse, norme) */
+
+.info_list{
+    background-color: rgba(39, 36, 36, 0.966);
+    padding: 30px;
+    border-bottom: solid 1px white;
+}
+
+
+.container_list.flex{
+    justify-content: center;
+    padding-bottom: 60px;
+    width: 40%;
+    margin: auto;
+}
+
+#social{
+    background-color: red;
+    width: 300px;
+    height: 700px;
+}
+
+.list{
+    background-color: aquamarine;
+    width: calc(70%/4);
+    height: 700px;
+    border: solid 1px black;
+}
+
+.container_navigation_bar_footer{
+    background-color: rgba(39, 36, 36, 0.966);
+    padding: 30px;
+}
+
+.navigation_bar_footer.flex{
+    background-color: rgba(32, 162, 218, 0.812);
+    min-height: 80px;
+    border: solid 1px black;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 40%;
+    margin: auto;
+}
