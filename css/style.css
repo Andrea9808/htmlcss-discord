@@ -28,7 +28,7 @@ nav{
     padding-top: 10px;
 }
 
-ul li{
+.list_heater > li{
     color: black;
     list-style-type: none;
     display: inline-block;
@@ -202,41 +202,100 @@ p{
 .info_list{
     background-color: rgba(39, 36, 36, 0.966);
     padding: 30px;
-    border-bottom: solid 1px white;
 }
 
+/* PARTE SOCIAL */
+
+#italian_flag{
+    width: 20px;
+}
+
+#italian_lang{
+    font-size: 10px;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+}
+
+.fa-solid{
+    font-size: 10px;
+    color: white;
+}
+
+h4{
+    color: blueviolet;
+    font-size: 21px;
+    padding-bottom: 15px;
+}
+
+.fa-brands{
+    margin-right: 10px;
+    color: white;
+}
+
+.logo_social{
+    padding-top: 15px;
+}
+
+/* FINE PARTE SOCIAL */
+
+
+
+
+/* INIZO STILI LISTA */
 
 .container_list.flex{
     justify-content: center;
     padding-bottom: 60px;
-    width: 40%;
+    width: 80%;
     margin: auto;
+    border-bottom: 1px solid blueviolet;
 }
 
 #social{
-    background-color: red;
-    width: 300px;
+    width: 240px;
     height: 700px;
 }
 
 .list{
-    background-color: aquamarine;
-    width: calc(70%/4);
+    width: calc(90%/4);
     height: 700px;
-    border: solid 1px black;
 }
+
+.list_footer>li{
+    padding-top: 10px;
+    font-size: 5px;
+    font-size: 12px;
+    font-weight: bolder;
+    list-style-type: none;
+}
+
+.list_footer:first-child{
+    color: blueviolet;
+}
+
+/* FINE STILI LISTA */
 
 .container_navigation_bar_footer{
     background-color: rgba(39, 36, 36, 0.966);
     padding: 30px;
 }
 
+.subscribe_button{
+    border: transparent;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: white;
+    background-color: blueviolet;
+    margin-right: 15px;
+}
+
+
+
 .navigation_bar_footer.flex{
-    background-color: rgba(32, 162, 218, 0.812);
     min-height: 80px;
-    border: solid 1px black;
     justify-content: space-between;
     align-items: center;
-    max-width: 40%;
+    max-width: 80%;
     margin: auto;
 }
