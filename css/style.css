@@ -112,6 +112,8 @@ h1{
     width: 450px;
 }
 
+/* paragrafi */
+
 .item_gray{
     width: 450px;
     margin: 50px 250px;
@@ -123,6 +125,7 @@ h2{font-size: 31px;
 
 p{
     padding-top: 20px;
+    font-size: 14px;
 }
 
 .info_gray{
@@ -153,16 +156,45 @@ p{
 }
 
 .info_videocall{
-    background-color: gray;
+    background-color: lightgray;
     padding: 50px;
+    text-align: center;
 }
 
 .container_videocall{
-    width: 40%;
+    width: 55%;
     height: 700px;
-    background-color: green;
     margin: auto;
 }
+
+#big_img{
+    max-width: 730px;
+    margin: auto;
+}
+
+
+.container_star.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#star {
+    background-image: url(../img/stars.svg);
+    background-size: 257px;
+}
+
+.download_violet{
+    background-color: blueviolet;
+    border: transparent;
+    border-radius: 15px;
+    padding: 7px 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+/* fine stili paragrafo */
 
 
 /* stili footer (lista social, prodotto, compagnia, risorse, norme) */
